@@ -1,19 +1,11 @@
-const thoughts = [
+const Msg = [
     {
-      thoughtText: 'I am hungry for a quesadilla',
-      username: ""
+    thoughtText: '',
+    username: ""
     },
     ,
-    'dogs are awesome',
-    'testing 1, 2, 3...',
-    'computers are cool',
-    'wee woo wee woo',
-    'bleep bloop',
-    'I think, therefore I am',
-    'haha',
-  
-  ]
-  
+    'Msg Here',
+
+]
+
   const getRandomArrItem = (arr) => arr[Math.floor(Math.random() * arr.length )];
-  
-  
